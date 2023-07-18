@@ -68,7 +68,7 @@ const emits = defineEmits(["update:modelValue"]);
 
 let copy = ref("Copy");
 function shareLink() {
-  navigator.clipboard.writeText("https://links-mtstmg.netlify.app/");
+  navigator.clipboard.writeText("https://links-coding-space.netlify.app/");
   copy.value = "Copied";
 }
 
